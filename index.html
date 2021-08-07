@@ -2,54 +2,77 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/techis-logo.png" type="image/png">
-    <!-- Bootstrap css cosde v5.0-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="image/techis-logo.png" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Portfolio</title>
 </head>
 
 <body>
-    <!-- JS BUndle v5.0 code-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
-
-    <!--Navbar Bootstrap code -->
     <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
         <div class="container">
-            <!-- navbar-brand, for your company, product, product or project name -->
-            <a class="navbar-brand title-icon" href="#"><span class="font-primary">P</span>ortfolio</a>
+            <a class="navbar-brand title title-icon" href="#"><span class="font-primary">P</span>ortfolio</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <!-- navbar-toggler, for use with our collapse plugin and other navigation toggling behaviors -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-            <!-- .collapse .navbar-collapse, for grouping  and hiding navbar contents by prent breakpoint -->
-
-            <div class="collapse navbar-collapse id=" navbarToggler ">
-                
-                <!-- navbar-nav , for a full-height  and light-weight-->
-                <!-- ms-auto, for pushing items to left-->
-                <!-- mb-2, for a margin bottom for 2 levels-->
-                
-            <ul class="navbar-nav ms-auto mb-2 ">
-                <li class="nav-item ">
-                        <a class="nav-link font-black "  href="#about ">About</a>
-                </li>
-
-                <li class="nav-item ">
-                    <a class="nav-link font-black "  href="#projects ">Projects</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link font-black" aria-current="page" href="#about"
+                >About</a
+              >
             </li>
-                      
-            </ul>
-           
-               
+            <li class="nav-item">
+              <a
+                class="nav-link font-black"
+                aria-current="page"
+                href="#projects"
+                >Projects</a
+              >
+            </li>
+          </ul>
         </div>
-  </div>
- </nav>
+      </div>
+    </nav>
+    <div id="about">
+      <h2><span class="font-primary">A</span>bout</h2>
+      <img src="img/sample-woman.jpg" />
+      <div class="name">Olivia Jhonson</div>
+      <div class="vocation">Web Application Developer</div>
+      <div class="skills">
+        HTML / CSS / JavaScript / React.js / Redux / Python / Django /
+        Express.js / AWS (Basics) / Docker (Basics)/DataScience
+      </div>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis et
+        laborum saepe quasi illum, eaque, recusandae, totam iusto officiis
+        architecto voluptatibus? Nam earum aspernatur veniam pariatur fugiat
+        laudantium qui eius!
+      </p>
+      <div class="email">savant@techis.io</div>
+      <div class="icons">
+        <a href="#"><i class="bi bi-linkedin ms-3"></i></a>
+            <a href="https://github.com/savantakash/Portfolio">
+                <i class="bi bi-github"></i>
+            </a>
+        </div>
+        </div>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 
 </html>
